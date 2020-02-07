@@ -1,9 +1,9 @@
 const functions = require("firebase-functions");
 const request = require("request-promise");
 
-const AQI_API_KEY = "e1752721-0dc7-4b96-9995-c66812709fec";
+const AQI_API_KEY = {};
 
-const LineNotify_TOKEN = "9rg1xGmbjlvZc54j6FFwiSC8abGr0oU8NP6NfqBkXvJ";
+const LineNotify_TOKEN = {};
 
 exports.Notify = functions
   .region("asia-east2")
